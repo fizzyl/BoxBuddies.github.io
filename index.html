@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" onkeypress="jump()">
-    <html lang="en" onclick="jump()">
-<head>
+<!DOCTYPE html id="http://boxbuddies.github.io">
+<audio id="sound1" src="mixkit-video-game-retro-click-236.wav"></audio>
+ <html lang="en" onkeypress="jump();document.getElementById('sound1').play()">
+  
     <meta charset="UTF-8">
     <title>Box Buddies</title>
     <link rel="stylesheet" href="style.css">
@@ -12,6 +12,10 @@
         <div id="block"></div>
     </div>
     <p>Score: <span id="scoreSpan"></span></p>
+
 </body>
 <script src="script.js"></script>
+<audio autoplay="true" loop="true">
+  <source src="https://bit.ly/37G6nl2"></source>
+</audio>
 </html>
